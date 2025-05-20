@@ -1,3 +1,4 @@
+
 import requests
 import time
 import concurrent.futures
@@ -174,3 +175,6 @@ if __name__ == "__main__":
 # python test_requests.py --url https://k8s-default-classifi-18da2b317c-1355353865.ap-south-1.elb.amazonaws.com --requests 1 --workers 1
 # python test_requests.py --url https:// k8s-prod-modelser-107450934f-1470860234.ap-south-1.elb.amazonaws.com --requests 1 --workers 1
 # python3 test_load_vegfruits_2.py --url "http://a250c292ee6114b8e9d6f23f6d8690bc-1957734331.ap-south-1.elb.amazonaws.com/v1/models/vegfruits-classifier:predict" --requests 10 --workers 2
+
+#IMP run this line with ur dns for testing: 
+#python3 test_load_vegfruits_2.py --url "http://a37377146bd384c3294c355c9ce14a0f-1586045089.ap-south-1.elb.amazonaws.com/v1/models/vegfruits-classifier:predict" --requests 10 --workers 2
